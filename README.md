@@ -8,7 +8,7 @@ Please integrate the [train_fft_tv.py](https://github.com/Zhenxing-Dong/Fourier-
 #### UNet with proposed module
     python train_fft_tv.py --run_id=unet_fft --perfect_prop_model=True --purely_unet=True --batch_size=1 --channel=1 
 #### HoloNet with proposed module
-    python train_fft_tv.py --run_id=holonet_fft --perfect_prop_model=False --purely_unet=True --batch_size=1 --channel=1 
+    python train_fft_tv.py --run_id=holonet_fft --perfect_prop_model=True --purely_unet=False --batch_size=1 --channel=1 
     
 ## Test
 
