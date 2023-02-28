@@ -2,7 +2,7 @@
 Fourier-inspired neural module for real-time and high-fidelity computer-generated holography
 
 ## Get started
-Please integrate the train_fft_tv.py, main.py, unet_fft.py and holonet_fft.py into [neural holography](https://github.com/computational-imaging/neural-holography)
+Please integrate the train_fft_tv.py, main.py, eval.py, unet_fft.py and holonet_fft.py into [neural holography](https://github.com/computational-imaging/neural-holography)
 
 ## Train
 #### UNet with proposed module
@@ -21,6 +21,13 @@ Download the pretrained model weights from [here](https://github.com/Zhenxing-Do
     python main.py --channel=1 --method=UNET_fft --root_path=./phases --generator_dir=./pretrained_networks
 #### HoloNet with proposed module   
     python main.py --channel=1 --method=HOLONET_inital_fft --root_path=./phases --generator_dir=./pretrained_networks
-    
+
+## Eval
+
+#### UNet with proposed module
+    python eval.py --channel=1 --root_path=./phases/_UNET_fft_ASM --prop_model=ASM
+#### HoloNet with proposed module   
+    python eval.py --channel=1 --root_path=./phases/_HOLONET_inital_fft_ASM --prop_model=ASM
+ 
 ## Acknowledgement
 The codes are built on [neural holography](https://github.com/computational-imaging/neural-holography). We sincerely appreciate the authors for sharing their codes.
