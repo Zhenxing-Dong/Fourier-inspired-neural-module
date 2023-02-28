@@ -14,9 +14,9 @@ Please integrate the train_fft_tv.py, main.py, unet_fft.py and holonet_fft.py in
 ## Test
 
 #### Testing dataset
-The testing set in our paper is [here](https://github.com/Zhenxing-Dong/Fourier-inspired-neural-module/tree/master/test_data)
+Download the testing set in our paper is [here](https://github.com/Zhenxing-Dong/Fourier-inspired-neural-module/tree/master/test_data)
 #### Pretrained model
-The pretrained model weights from [here](https://github.com/Zhenxing-Dong/Fourier-inspired-neural-module/tree/master/pretrained_network)
+Download the pretrained model weights from [here](https://github.com/Zhenxing-Dong/Fourier-inspired-neural-module/tree/master/pretrained_network)
 
 #### UNet with proposed module
     python main.py --channel=1 --method=UNET_fft --root_path=./phases --generator_dir=./pretrained_networks
