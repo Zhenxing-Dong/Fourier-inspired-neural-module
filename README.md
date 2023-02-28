@@ -22,4 +22,5 @@ Download the pretrained model weights from [here](https://github.com/Zhenxing-Do
 #### HoloNet with proposed module   
     python main.py --channel=1 --method=HOLONET_inital_fft --root_path=./phases --generator_dir=./pretrained_networks
     
-  
+## Acknowledgement
+The codes are built on [neural holography](https://github.com/computational-imaging/neural-holography). We sincerely appreciate the authors for sharing their codes.
