@@ -37,7 +37,7 @@ from holonet import HoloNet, InitialPhaseUnet, FinalPhaseOnlyUnet, PhaseOnlyUnet
 from propagation_ASM import propagation_ASM
 from unet_fft import UNet_fft
 import time
-from holoencoder import Holoencoder
+# from holoencoder import Holoencoder
 from unet import UNet
 # Command line argument processing
 p = configargparse.ArgumentParser()
@@ -168,10 +168,10 @@ elif opt.method == 'UNET':
     model_path = os.path.join(opt.generator_dir, 'naive_unet_10_layers_green_2022-11-09-20-59-51.518016_39.pth')
     image_res = (1024, 2048)
 
-elif opt.method == 'Holoencoder':
-    phase_only_algorithm = Holoencoder().to(device)
-    model_path = os.path.join(opt.generator_dir, 'holoencoder_green_green_3.pth')
-    image_res = (1072, 1920)
+# elif opt.method == 'Holoencoder':
+#     phase_only_algorithm = Holoencoder().to(device)
+#     model_path = os.path.join(opt.generator_dir, 'holoencoder_green_green_3.pth')
+#     image_res = (1072, 1920)
 
 elif opt.method == 'naive_UNET':
     phase_only_algorithm = UNet().to(device)
