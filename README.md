@@ -9,16 +9,16 @@ The previous codes, which are published in the [Optics Letters](https://opg.opti
 ## Citation
 If you use this code and find our work valuable, please cite our paper.
 
-@article{Dong:23,
-author = {Zhenxing Dong and Chao Xu and Yuye Ling and Yan Li and Yikai Su},
-journal = {Opt. Lett.},
-number = {3}, pages = {759--762},
-publisher = {Optica Publishing Group},
-title = {Fourier-inspired neural module for real-time and high-fidelity computer-generated holography},
-volume = {48},
-month = {Feb}, year = {2023},
-doi = {10.1364/OL.477630},
-}
+  @article{Dong:23,
+  author = {Zhenxing Dong and Chao Xu and Yuye Ling and Yan Li and Yikai Su},
+  journal = {Opt. Lett.},
+  number = {3}, pages = {759--762},
+  publisher = {Optica Publishing Group},
+  title = {Fourier-inspired neural module for real-time and high-fidelity computer-generated holography},
+  volume = {48},
+  month = {Feb}, year = {2023},
+  doi = {10.1364/OL.477630},
+  }
         
 ## Acknowledgement
 The codes are built on [neural holography](https://github.com/computational-imaging/neural-holography) and [Uformer](https://github.com/ZhendongWang6/Uformer). We sincerely appreciate the authors for sharing their codes.
