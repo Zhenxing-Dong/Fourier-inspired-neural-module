@@ -1,4 +1,4 @@
-![image](https://github.com/Zhenxing-Dong/Fourier-inspired-neural-module/assets/66579268/a4e43eb0-b255-4a7e-8ce3-2e9f101aa625)# Fourier-inspired-neural-module
+# Fourier-inspired-neural-module
 Fourier-inspired neural module for real-time and full-color computer-generated holography
 
 ## Update
