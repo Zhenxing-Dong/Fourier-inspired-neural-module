@@ -7,7 +7,8 @@ We further implement Fourier-inspired neural module for full-color computer-gene
 The previous codes, which are published in the [Optics Letters](https://opg.optica.org/ol/abstract.cfm?uri=ol-48-3-759), can be found in [here](https://github.com/Zhenxing-Dong/Fourier-inspired-neural-module/tree/master/OL).
 
 ## Citation
-    If you use this code and find our work valuable, please cite our paper.
+If you use this code and find our work valuable, please cite our paper.
+
         @article{Dong:23,
         author = {Zhenxing Dong and Chao Xu and Yuye Ling and Yan Li and Yikai Su},
         journal = {Opt. Lett.},
