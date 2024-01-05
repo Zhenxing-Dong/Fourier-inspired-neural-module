@@ -1,4 +1,4 @@
-# Fourier-inspired-neural-module
+![image](https://github.com/Zhenxing-Dong/Fourier-inspired-neural-module/assets/66579268/a4e43eb0-b255-4a7e-8ce3-2e9f101aa625)# Fourier-inspired-neural-module
 Fourier-inspired neural module for real-time and full-color computer-generated holography
 
 ## Update
@@ -20,5 +20,7 @@ If you use this code and find our work valuable, please cite our paper.
     doi = {10.1364/OL.477630},
     }
         
-## Acknowledgement
+## Acknowledgements
 The codes are built on [neural holography](https://github.com/computational-imaging/neural-holography) and [Uformer](https://github.com/ZhendongWang6/Uformer). We sincerely appreciate the authors for sharing their codes.
+## Contact
+If you have any questions, please do not hesitate to contact [here](d_zhenxing@sjtu.edu.cn).
