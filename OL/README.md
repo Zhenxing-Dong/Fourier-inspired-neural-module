@@ -11,8 +11,6 @@ Please integrate the [train_fft_tv.py](https://github.com/Zhenxing-Dong/Fourier-
     python train_fft_tv.py --run_id=holonet_fft --perfect_prop_model=True --purely_unet=False --batch_size=1 --channel=1 
     
 ## Test
-#### Pretrained model
-Download the pretrained model weights from [here](https://github.com/Zhenxing-Dong/Fourier-inspired-neural-module/tree/master/pretrained_network)
 
 #### UNet with proposed module
     python main.py --channel=1 --method=UNET_fft --root_path=./phases --generator_dir=./pretrained_networks
